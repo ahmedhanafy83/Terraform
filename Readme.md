@@ -39,17 +39,3 @@ terraform workspace new dev
 terraform plan
 terraform apply
 ```
-
-
-##  **Verification**
-
-After deployment:
-
-1. **Frontend:**
-   Access the public ALB DNS in your browser:
-
-   ```
-   http://<public-alb-dns>  
-   ```
-2. **Backend:**
-   The proxy forwards traffic to the **Internal ALB** (`port 5000`), serving the Node.js app.
