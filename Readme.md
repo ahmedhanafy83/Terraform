@@ -1,5 +1,4 @@
-# terraform-aws-deploy-infra
-**Secure Web App with Public Proxy + Private Backend on AWS using Terraform**
+# terraform
 
 This project deploys a scalable and secure AWS infrastructure using Terraform.  
 It provisions networking, compute resources, and load balancers to host a full-stack web application.
